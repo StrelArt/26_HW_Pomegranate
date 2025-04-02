@@ -15,17 +15,7 @@ public class Pomegranate implements Iterable<Seed> {
         return seeds.iterator();
     }
 
-//    @Override
-//    public final boolean equals(Object object) {
-//        if (!(object instanceof Pomegranate that)) return false;
-//
-//        return seeds.equals(that.seeds);
-//    }
-//
-//    @Override
-//    public int hashCode() {
-//        return seeds.hashCode();
-//    }
+
 
     @Override
     public String toString() {
